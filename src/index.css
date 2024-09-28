@@ -1,0 +1,228 @@
+/* ItemForm.css */
+body {
+  background-color: rgb(76, 86, 95);
+}
+
+.centered-table {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.centered-table th, .centered-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.centered-table th {
+  background-color: #343a40;
+  color: white;
+}
+
+.centered-table tr:nth-child(even) {
+  background-color: #454d55;
+}
+
+.centered-table tr:hover {
+  background-color: #5a6268;
+}
+
+.form {
+  background-color: #3b3f45;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  margin-top: 50px; /* Adjust the margin-top to move the form up */
+}
+
+.form h2 {
+  color: white;
+  text-align: left;
+  padding-top: 5px;
+}
+
+.form label {
+  color: white;
+}
+
+.form input,
+.form select,
+.form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+.form .btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #6c757d;
+  color: white;
+  cursor: pointer;
+}
+
+.form .btn:hover {
+  background-color: #5a6268;
+}
+
+.form p {
+  text-align: center;
+  color: red;
+}
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+}
+
+.App-header {
+  width: 100%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.large-button {
+  background-color: #6a7f85;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  font-size: 24px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+.large-button-Stanja {
+  background-color: #6a7f85;
+  color: white;
+  padding: 20px 40px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.large-button:hover {
+  background-color: #3a515f;
+}
+
+/* Ensure the login page container fills the viewport height */
+.login-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Full viewport height */
+  overflow: hidden; /* Prevent scrolling on the login page */
+}
+
+/* Style the login form */
+.login-form {
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+/* Center the heading */
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style the form elements */
+.login-form div {
+  margin-bottom: 15px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.login-form .login-error {
+  color: red;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.form-card {
+  background-color: rgb(113, 122, 129);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+
+.total-price-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #343a40a8;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+.primka-table th {
+  background-color: #343a40;
+  color: white;
+}
+
+.primka-table tr:nth-child(even) {
+  background-color: #454d55;
+}
+
+.primka-table tr:hover {
+  background-color: #5a6268;
+}
+
+
+.chart-container {
+  width: 400px;
+  height: 300px;
+}
